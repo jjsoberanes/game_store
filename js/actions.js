@@ -1,3 +1,4 @@
+// Cambio de tema
 const $toogleTheme = document.getElementById('toogleTheme');
 
 $toogleTheme.addEventListener('click', () => {

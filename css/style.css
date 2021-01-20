@@ -1,3 +1,4 @@
+/* variables */
 .light-theme {
   --color-background: #fff;
   --color-text: #000;
@@ -8,7 +9,14 @@
   --color-text: #fff;
 }
 
+/* estilos generales */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   background-color: var(--color-background);
   color: var(--color-text);
+  margin: 0;
 }
