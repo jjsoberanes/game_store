@@ -10,10 +10,74 @@
 </head>
 <body>
   <header>
-    <button id="toogleTheme">cambiar tema</button>
   </header>
   <main>
-    <h1>Ejemplo</h1>
+    <div class="container">
+      <section class="products-ad">
+        <div class="products-ad__item">
+          <span>lorem ipsum dolor</span>
+          <img src="https://i.imgur.com/GgnAbbY.png" alt="">
+        </div>   
+        <div class="products-ad__item">
+          <img src="https://i.imgur.com/yskfCyX.png" alt="">
+          <span>lorem ipsum dolor</span>
+        </div>  
+        <div class="products-ad__item">
+          <span>lorem ipsum dolor</span>
+          <img src="https://i.imgur.com/fRSrq2W.png" alt="">
+        </div>  
+      </section>
+      <h2>special products</h2>
+      <div id="specialProducts" class="special-products">
+        <article class="special-product">
+          <img src="https://i.imgur.com/BqD25VM.png" alt="">
+          <p>lorem ipsum dolor</p>
+          <p><b class="text-green">$89</b class="text-red"></p>
+        </article>
+        <article class="special-product">
+          <img src="https://i.imgur.com/au4TTPM.png" alt="">
+          <p>lorem ipsum dolor</p>
+          <p><b class="text-green">$89</b><b class="text-red">-30%</b></p>
+        </article>
+        <article class="special-product">
+          <img src="https://i.imgur.com/qXArWGk.png" alt="">
+          <p>lorem ipsum dolor</p>
+          <p><b class="text-green">$89</b class="text-red"></p>
+        </article>
+        <article class="special-product">
+          <img src="https://i.imgur.com/Uu2wU8Q.png" alt="">
+          <p>lorem ipsum dolor</p>
+          <p><b class="text-green">$89</b><b class="text-red">-30%</b></p>
+        </article>
+        <article class="special-product">
+          <img src="https://i.imgur.com/BqD25VM.png" alt="">
+          <p>lorem ipsum dolor</p>
+          <p><b class="text-green">$89</b class="text-red"></p>
+        </article>
+        <article class="special-product">
+          <img src="https://i.imgur.com/au4TTPM.png" alt="">
+          <p>lorem ipsum dolor</p>
+          <p><b class="text-green">$89</b><b class="text-red">-30%</b></p>
+        </article>
+        <article class="special-product">
+          <img src="https://i.imgur.com/qXArWGk.png" alt="">
+          <p>lorem ipsum dolor</p>
+          <p><b class="text-green">$89</b class="text-red"></p>
+        </article>
+        <article class="special-product">
+          <img src="https://i.imgur.com/Uu2wU8Q.png" alt="">
+          <p>lorem ipsum dolor</p>
+          <p><b class="text-green">$89</b><b class="text-red">-30%</b></p>
+        </article>
+      </div>
+      <div class="special-products__buttons">
+        <button onclick="scrollProducts('specialProducts','left')">a</button>
+        <button onclick="scrollProducts('specialProducts','right')">b</button>
+      </div>
+      <section class="product-list">
+        <article class="card"></article>
+      </section>
+    </div>
   </main>
   <footer></footer> 
   <script src="js/actions.js"></script>
