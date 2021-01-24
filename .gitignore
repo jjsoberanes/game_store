@@ -1,4 +1,4 @@
-*.png
-*.jpg
+Photoshop/*.png
+Photoshop/*.jpg
 *.xd
-*.psd
+Photoshop/*.psd
