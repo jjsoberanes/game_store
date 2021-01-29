@@ -17,3 +17,5 @@ leftButtonSectionOne.onclick = function(){
     scrollHorizontalGrid.scrollLeft -= scrollHorizontalGrid.scrollWidth;
     console.log('Botón izquierdo');
 }
+
+
