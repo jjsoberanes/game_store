@@ -1,0 +1,22 @@
+@media (min-width: 1024px){
+    /*En el footer features se ensancha todo */
+
+    .footer__features {
+        justify-content: space-around;
+    }
+
+    /* En el footer info también se debe ensanchar un poco */
+
+    .footer__info {
+        justify-content: space-around;
+    }
+
+    /* En el footer floor debemos hacer crecer los métodos de pago */
+
+    
+    .footer__img--pay {
+        margin: 0 1rem;
+        width: 3rem;
+    }
+
+}
