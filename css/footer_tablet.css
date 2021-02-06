@@ -1,0 +1,131 @@
+@media (min-width: 675px) {
+    /* Footer Features */ 
+    /* ---------------- */
+    /* Quito el flex wrap para que quede todo en una row */ 
+
+    .footer__features {
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+
+
+    /* Footer Info */
+    /* Voy a agregar el input de email y acomodar con el flex wrap */
+
+
+    .footer__info {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .info__div h3 {
+        align-self: flex-start;
+    }
+
+    .info__div--getMail {
+        display: block;
+        
+        width: max-content;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .getMail__input {
+        width: 235px;
+        height: 40px;
+        margin: 10px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-color: var(--color-final);
+        border-radius: 25px;
+        background-color: var(--color-second);
+        font-style: italic;
+        font-size: var(--fontsize-big);
+        font-weight: var(--font-light);
+    }
+
+    .getMail__input::placeholder {
+        color: gray
+    }
+
+    #submitEmail {
+        position: absolute;
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 10px;
+        border: none;
+        top: calc(45.5%);
+        left: calc(100% - 5px);
+        background-color: var(--color-second);
+        text-transform: uppercase;
+        font-size: var(--fontsize-mini);
+        transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) .5s; 
+    }
+
+    #submitEmail:hover {
+        cursor: pointer;
+        transform: translateX(3px);
+    }
+
+    .submitEmailIcon {
+        background-image: url(https://i.postimg.cc/Vs7Vkb00/send.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+
+
+
+    /* Footer Floor */
+
+    /* Agregar los métodos de pago, y acomodar todo con un justify. También quitar el vBar */
+
+    #vBar{
+        display: none;
+    }
+    
+    .footer__floor{
+        justify-content: space-around;
+    }
+    .footer__div--socials{
+        width: 20%;
+    }
+
+    .footer__div--payment{
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+    }
+
+    .footer__img--pay{
+       display: flex;
+       flex-direction: row;
+       width: 2.2rem;
+       height: 24px;
+       border-radius: 6px;
+       background-color:white;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 40%;
+       margin: 0 0.5rem;
+    }
+
+    .pp {
+        background-image: url(https://i.postimg.cc/kXysBNZL/paypal.png);
+    }
+
+    .pay {
+        background-image: url(https://i.postimg.cc/kg1yyJ7c/google-wallet.png);
+    }
+    
+    .mastercard {
+        background-image: url(https://i.postimg.cc/WbVSNY9M/mastercard.png);
+    }
+
+    .visa {
+        background-image: url(https://i.postimg.cc/vmCLp0gx/visa.png);
+    }
+}
