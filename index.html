@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" media="(min-width: 675px)" href="./css/footer_tablet.css">
+    <link rel="stylesheet" media="(min-width: 1024px)" href="./css/footer_desk.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Iconos Boxicon-->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -274,7 +277,7 @@
       <section class="product-list">
         <article class="card"></article>
       </section>
-      <h2 class='section-title'>Latest news</h2>
+      <h2 class="section-title">Latest news</h2>
       <div class="latest-news">
         <div class="latest-news__item">
           <img src="https://i.imgur.com/nu4noy1.png" alt="">
@@ -294,7 +297,122 @@
         <img src="https://i.imgur.com/OvZdpEf.png" alt="">
       </section>
     </div>
-
+<!-- ======== FOOTER ====== -->
+    <footer class="footer">
+        <section class="footer__features">
+            <div class="features__div features--delivery">
+                <span class="features__span features__delivery--pic"></span>
+                <i>Worldwide Delivery</i>
+                <p>Send a Gift Products</p>
+            </div>
+            <div class="features__div features__support">
+                <span class="features__span features__support--pic"></span>
+                <i>24/7 Support</i>
+                <p>On demand Support</p>
+            </div>
+            <div class="features__div features__gift">
+                <span class="features__span features__gift--pic"></span>
+                <i>Gift Vouchers</i>
+                <p>On Order Of $99</p>
+            </div>
+            <div class="features__div features__creditcard">
+                <span class="features__span features__credit--pic"></span>
+                <i>Great Saving</i>
+                <p>Online Payment Services</p>
+            </div>
+        </section>
+        <section class="footer__info">
+            <div class="info__div">
+                <h3><i>Store Information</i></h3>
+                <div class="info__div--mold info__div--direction">
+                    <span class="info__arrow info__span--direction"></span>
+                    <p class="info__p--direction">Game Store</p>
+                </div>
+                <div class="info__div--mold info__div--tlf">
+                    <span class="info__arrow info__span--tlf"></span>
+                    <p>+14248548452</p>
+                </div>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__span--email"></span>
+                    <p>admin@gmail.com</p>
+                </div>
+            </div>
+            <div class="info__div">
+                <h3><i>Products</i></h3>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__arrow-right"></span>
+                    <p class="direction">Delivery</p>
+                </div>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__arrow-right"></span>
+                    <p>Prices Drop</p>
+                </div>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__arrow-right"></span>
+                    <p>New Products</p>
+                </div>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__arrow-right"></span>
+                    <p>Best Sales</p>
+                </div>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__arrow-right"></span>
+                    <p>Stores</p>
+                </div>
+            </div>
+            <div class="info__div">
+                <h3><i>Your Account</i></h3>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__arrow-right"></span>
+                    <p class="direction">Delivery</p>
+                </div>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__arrow-right"></span>
+                    <p>Personal info</p>
+                </div>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__arrow-right"></span>
+                    <p>Orders</p>
+                </div>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__arrow-right"></span>
+                    <p>Credit Slips</p>
+                </div>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__arrow-right"></span>
+                    <p>Addresses</p>
+                </div>
+                <div class="info__div--mold">
+                    <span class="info__arrow info__arrow-right"></span>
+                    <p>My Wishlist</p>
+                </div>
+            </div>
+            <div class="info__div info__div--getMail">
+                <h3><i  class="info__div--email">Enter your email</i></h3>
+                <input type="email" class ="getMail__input" placeholder="darkvader@starwars.com">
+                <input type="submit" id="submitEmail" value="" class="submitEmailIcon">
+            </div>
+        </section>
+        <section class="footer__floor">
+            <div class="footer__div--copyright">
+                <p class="footer__p--copyright">2021 - Ecommerce Game Store by TeamDev</p>
+            </div>
+            <div id="vBar"> </div>
+            <div class="footer__div--socials">
+                <a href=""><span class="icon-media facebook"></span></a>
+                <a href=""><span class="icon-media instagram"></span></a>
+                <a href=""><span class="icon-media pinterest"></span></a>
+                <a href=""><span class="icon-media vimeo"></span></a>   
+                <a href=""><span class="icon-media twitter"></span></a>
+            </div>
+            <div class="footer__div--payment">
+                <a href=""><span class="footer__img--pay pp"></span></a>
+                <a href=""><span class="footer__img--pay pay"></span></a>
+                <a href=""><span class="footer__img--pay mastercard"></span></a>
+                <a href=""><span class="footer__img--pay visa"></span></a>
+            </div>
+        </section>
+    </footer>
     <script type="text/javascript" src="./js/actions.js"></script>
 </body>
 </html>
