@@ -1,252 +1,235 @@
 /*---- Variables -----*/
 /*---colors ----*/
-:root{
-    --color-first: #ccdbcc;
-    --color-second: #9ad1d4;
-    --color-third: #80ced7;
-    --color-four: #007ea7;
-    --color-final: #003249;
-    --color-payment: aliceblue;
+:root {
+  --color-first: #ccdbcc;
+  --color-second: #9ad1d4;
+  --color-third: #80ced7;
+  --color-four: #007ea7;
+  --color-final: #003249;
+  --color-payment: aliceblue;
 }
 
 /*------ Fonts ------*/
-:root{
-    --font-light: 300;
-    --font-regular: 400;
-    --font-bold: 700;
-    --font-superbold: 900;
-    --fontsize-mini: 1rem;
-    --fontsize-regular: 1.4rem;
-    --fontsize-big: 1.8rem;
+:root {
+  --font-light: 300;
+  --font-regular: 400;
+  --font-bold: 700;
+  --font-superbold: 900;
+  --fontsize-mini: 1rem;
+  --fontsize-regular: 1.4rem;
+  --fontsize-big: 1.8rem;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
 }
 html {
-    font-size: 62.5%;
 }
 
 a {
-    display: flex;
-    text-decoration: none;
+  display: flex;
+  text-decoration: none;
 }
 
 hr {
-    display: flex;
-    flex-direction: column;
-    width: 20px;
-    vertical-align: auto;
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  vertical-align: auto;
 }
 
-i{
-    font-size: 1.5rem;
-    font-weight: bold;
+i {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-h3 i{
-    font-size: 2.2rem;
+h3 i {
+  font-size: 2.2rem;
 }
 
-.footer{
-    height: max-content;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    
+.footer {
+  height: max-content;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Sección de caracteristicas: delivery, ahorro, creditos... */
 
 .footer__features {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    height: max-content;
-    background-color: var(--color-second);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: max-content;
+  background-color: var(--color-second);
 }
 
 .features__div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 40px;
-    padding: 10px;
-    font-size: var(--font-regular);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 40px;
+  padding: 10px;
+  font-size: var(--font-regular);
 }
 
 .features__span {
-    width: 80px;
-    height: 60px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+  width: 80px;
+  height: 60px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .features__delivery--pic {
-    
-    background-image: url(https://i.postimg.cc/8z8sk3h1/shipped.png);
+  background-image: url(https://i.postimg.cc/8z8sk3h1/shipped.png);
 }
 
 .features__support--pic {
-    background-image: url(https://i.postimg.cc/5NW6bT5f/support.png);
+  background-image: url(https://i.postimg.cc/5NW6bT5f/support.png);
 }
 
 .features__gift--pic {
-    background-image: url(https://i.postimg.cc/pL4Ntb8Z/piggy-bank.png);
+  background-image: url(https://i.postimg.cc/pL4Ntb8Z/piggy-bank.png);
 }
 
 .features__credit--pic {
-    background-image: url(https://i.postimg.cc/wxQTP3n9/credit-card.png);
+  background-image: url(https://i.postimg.cc/wxQTP3n9/credit-card.png);
 }
 
-
-
-/* ---------- */ 
+/* ---------- */
 
 /* Informacion */
 
 .footer__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    color: var(--color-first);
-    background-color: var(--color-final);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: var(--color-first);
+  background-color: var(--color-final);
 }
 
 .info__div {
-    width: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 20px 25px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 20px 25px;
 }
 
 .info__div h3 {
-    align-self: center;
+  align-self: center;
 }
 
 .info__div--mold {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: var(--font-light);
-    margin: 5px; /*En mobile (quitar luego)*/
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: var(--font-light);
+  margin: 5px; /*En mobile (quitar luego)*/
 }
 
 .info__arrow {
-    width: 13px;
-    height: 13px;
-    margin-right: 5px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .info__arrow-right {
-    background-image: url(https://i.postimg.cc/L6FMfk5T/right-arrow.png);
+  background-image: url(https://i.postimg.cc/L6FMfk5T/right-arrow.png);
 }
 
-
-
 .info__span--direction {
-    background-image: url(https://i.postimg.cc/QtRZf1bj/pin.png);
+  background-image: url(https://i.postimg.cc/QtRZf1bj/pin.png);
 }
 
 .info__span--tlf {
-    background-image: url(https://i.postimg.cc/pXQMB9nt/phone-call.png);
+  background-image: url(https://i.postimg.cc/pXQMB9nt/phone-call.png);
 }
 
 .info__span--email {
-    background-image: url(https://i.postimg.cc/52xdKxwQ/email.png);
+  background-image: url(https://i.postimg.cc/52xdKxwQ/email.png);
 }
 
 .info__div--getMail {
-    display: none;
+  display: none;
 }
-
 
 /* Sección de último piso */
 
-
-
 .footer__floor {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 40px;
-    background-color: var(--color-four);
-
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: var(--color-four);
 }
 
-.footer__p--copyright{
-    text-align: center;
-    font-size: var(--fontsize-regular);
-    font-weight: var(--font-bold);
-    color: var(--color-final)
+.footer__p--copyright {
+  text-align: center;
+  font-size: var(--fontsize-regular);
+  font-weight: var(--font-bold);
+  color: var(--color-final);
 }
 
 .footer__div--socials {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 50%;
-    margin: 0 4px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 4px;
 }
 
 .icon-media {
-    width: 16px;
-    height: 16px;
-    background-position: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+  width: 16px;
+  height: 16px;
+  background-position: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .facebook {
-    background-image: url(https://i.postimg.cc/xdS8zgsx/facebook.png);
+  background-image: url(https://i.postimg.cc/xdS8zgsx/facebook.png);
 }
 
 .vimeo {
-    background-image: url(https://i.postimg.cc/K8T4jC53/vimeo.png);
+  background-image: url(https://i.postimg.cc/K8T4jC53/vimeo.png);
 }
 
 .pinterest {
-    background-image: url(https://i.postimg.cc/5NT6xf8M/pinterest.png);
+  background-image: url(https://i.postimg.cc/5NT6xf8M/pinterest.png);
 }
 
 .instagram {
-    background-image: url(https://i.postimg.cc/SQZnv6sR/instagram.png);
+  background-image: url(https://i.postimg.cc/SQZnv6sR/instagram.png);
 }
 
 .twitter {
-    background-image: url(https://i.postimg.cc/X7prSrG8/twitter.png);
+  background-image: url(https://i.postimg.cc/X7prSrG8/twitter.png);
 }
 
 #vBar {
-    width: 2px;
-    height: 40px;
-    background-color: var(--color-first);
+  width: 2px;
+  height: 40px;
+  background-color: var(--color-first);
 }
 
 .footer__div--payment {
-    display: none;
+  display: none;
 }
-
-
-
-
-
